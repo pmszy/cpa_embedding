@@ -1,0 +1,18 @@
+enter cluster
+ 64
+enter meas,run,niter,nover
+       5  1   30    40
+enter rand #,iso,dfac,ifac
+     334315   0  0.5  40.0
+enter ed ,tprime, V
+      0.  0.0  0.5
+enter delta   nwn
+       3.0   120
+enter  ca  tables_type
+       0.5     3
+enter  taa1 taa2   tab   tz   V1a  V12a  
+       1.0  1.0   0.0   1.0   1.6  0.0
+enter  liz
+       3
+
+
