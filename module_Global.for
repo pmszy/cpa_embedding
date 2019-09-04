@@ -45,8 +45,8 @@ c****************************************************************************
           logical, parameter ::   embedding2=.false.
           logical, parameter ::   liz_embedding=.true.
           logical, parameter ::   free_standing=.false.
-          logical, parameter ::   mb_tmt= .true. ! MB-has to be on
-           logical, parameter ::   mb_tmt_ver1= .true. !Hanna's 
+          logical, parameter ::   mb_tmt= .false. ! MB-has to be on
+           logical, parameter ::   mb_tmt_ver1= .false. !Hanna's 
            logical, parameter ::   mb_tmt_ver2= .false. !rho_tot_typ basis invariant 
             logical, parameter ::   mb_tmt_ver6= .false. !Yi's new trial
             logical, parameter ::   mb_tmt_ver7= .false. !local ansatz
