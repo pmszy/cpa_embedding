@@ -32,7 +32,7 @@ fLatticeCoords = np.zeros(shape=latticeShape)
 for index in latticeCoords:
 	fLatticeCoords[index] = int(dFlatten(index))
 
-with open("./lizList.dat",'w') as fp:
+with open("./lizList",'w') as fp:
 	fp.write("dim,%d,L,%d,liz,%d\n" % (dim,L,liz)  )
 	latticeCoords = np.ndindex(*[ L for i in range(dim)])
 	for center in latticeCoords:
