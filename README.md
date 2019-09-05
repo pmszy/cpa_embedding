@@ -16,6 +16,7 @@ niter: # of iterations
 8) tz: = taa1
 9) V1a: disorder strength
 10) liz: linear size of liz
+11) The broadening eta is actually defined in the module_Global.for
 
 3. The code initialize the liz lattice by reading the file lizList, which is created by a python script lizList.py.
 In lizList.py, change the value of L(linear size of the cluster) and liz and run the python script
