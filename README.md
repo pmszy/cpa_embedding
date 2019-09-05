@@ -25,4 +25,6 @@ In lizList.py, change the value of L(linear size of the cluster) and liz and run
 In the current case, we set meas=5, run=1, so if we want to run a calculation with 400 disorder configuration,
 we need to have 80 cores running in parallel, so that we can use the common
 mpirun -np 80  ./AVEDISDCA_intel
-A sample of running a system with L=4, liz=3 with CPA embedding is included in the folder sample
+A sample of running a system with L=4, liz=3 with CPA embedding is included in the folder sample.
+In the folder, a submitting file sub.pbs on supermike is provided together with the output files.
+The one we need is the dos.dat which contains the average dos(typical dos) for CPA(TMT) embedding case.

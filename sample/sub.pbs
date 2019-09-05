@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#PBS -q workq
+#PBS -A hpc_ml01
+#PBS -l nodes=4:ppn=20
+#PBS -l walltime=2:00:00
+#PBS -V
+#PBS -o MB.o
+#PBS -e MB.e
+#PBS -m e
+#PBS -M zhangyiphys@gmail.com
+#PBS -N L4W2.0
+
+cd $PBS_O_WORKDIR 
+
+mpirun -np 80 -ppn 20 ./AVEDISDCA_intel
+

@@ -1,0 +1,10 @@
+readin               was called          1 times, total       0.30 secs
+table                was called          1 times, total       0.40 secs
+init_coarsegrain     was called          1 times, total       0.02 secs
+output               was called         31 times, total       8.29 secs
+geod                 was called         30 times, total      13.08 secs
+set_Gc_liz           was called         30 times, total      12.71 secs
+Gsc                  was called         30 times, total       0.32 secs
+dateregupg           was called        150 times, total      91.84 secs
+measure              was called        150 times, total       0.08 secs
+sumup                was called         30 times, total       0.06 secs
