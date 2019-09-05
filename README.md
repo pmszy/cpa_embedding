@@ -21,3 +21,8 @@ niter: # of iterations
 3. The code initialize the liz lattice by reading the file lizList, which is created by a python script lizList.py.
 In lizList.py, change the value of L(linear size of the cluster) and liz and run the python script
 
+4. Running script:
+In the current case, we set meas=5, run=1, so if we want to run a calculation with 400 disorder configuration,
+we need to have 80 cores running in parallel, so that we can use the common
+mpirun -np 80  ./AVEDISDCA_intel
+A sample of running a system with L=4, liz=3 with CPA embedding is included in the folder sample
